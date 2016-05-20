@@ -79,7 +79,23 @@ Here is some Hebrew text
 &body=You%20are%20invited%20to%20a%20big%20summer%20party!!">发送邮件</a>
 </p>
 <p>来自网络的图
-<img src="http://www.w3school.com.cn/i/w3school_logo_white.gif" />
+alt表示当图片加载失败时，做出的提示
+<img alt="error" src="http://www.w3school.com.cn/i/w3school_logo_white.gif" />
 </p>
+
+<img border="0" usemap="#planetmap" src="resource/image/1433397982027.jpg" alt="Planets" />
+
+<map name="planetmap" id="planetmap">
+<area alt="facebook" shape="circle" coords="180,139,34" target="_blank" href="https://www.facebook.com/" />
+
+<area alt="twitter" shape="circle" coords="129,161,30" target="_blank" href="https://www.twitter.com/" />
+<!-- coords中三个参数，则在图中为一个圆形区域，四个参数为平行四角形
+三个参数时第1个参数表示距离图像最左边的像素距离，第2个参数表示距离图像最顶部的像素距离，第3个参数表示圆形的半径.
+四个参数时第1个参数表示区域最左边距离图像最左的距离，第2个参数表示区域最顶部距离图像最顶部的距离，第3个参数表示区域最右边距离图像最左边的距离 
+第4个参数表示区域最底部距离图像最顶部的距离-->
+<area alt="google" shape="rect" coords="10,0,110,260" target="_blank" href="https://www.google.com/" />
+</map>
+<p><b>注释：</b>img 元素中的 "usemap" 属性引用 map 元素中的 "id" 或 "name" 属性（根据浏览器），所以我们同时向 map 元素添加了 "id" 和 "name" 属性。</p>
+
 </body>
 </html>
