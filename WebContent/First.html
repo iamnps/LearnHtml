@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <title>first html</title>
 </head>
+<style type="text/css"> <!-- style标签 -->
+h1 {color:red}
+p {color:blue}
+</style>
+
 <body bgcolor="yellow" > <!-- background="resource/image/1433397982027.jpg" -->
 <h1 align="center">My first heading</h1>
 <p>My first paragraph.</p>
@@ -14,13 +19,16 @@
 <hr />
 <p>This is a paragraph.</p>
 
-<p>床前明月光，疑是地上霜。<br />
+<p style="color : red; margin-left : 20px">床前明月<a href="https://zh.wikipedia.org/wiki/光" style="text-decoration:none">光</a>，疑是地上霜。<br />
 举头望明月，低头思故乡。</p>
 
 <p>This is<br /> another paragraph.</p>
 
-<!-- 表示一个连接 href里面是链接的地址 -->
-<a href="http://192.168.1.135:8080/AngularJS/NewFile.html">This is a link</a>
+<!-- 表示一个连接 href里面是链接的地址    style="text-decoration:none"这个属性会使链接没有下划线（很实用） -->
+<!-- 在新的标签也打开页面 target="_blank"（很实用） -->
+<a href="http://192.168.1.135:8080/AngularJS/NewFile.html" target="_blank" style="text-decoration:none">
+<img border="0" src="resource/image/88A3.tmp.png">
+</a>
 <br />
 
 <!-- 如果设置的大小与原图片不合，图片会被压缩不会被剪切 -->
