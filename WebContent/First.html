@@ -66,7 +66,7 @@ Here is some Hebrew text
 
 <a name="lable">基本的注意事项</a>
 <br />
-<a href="#h1">4234</a><!-- 类似于导航的功能 -->
+<a href="#h1">top</a><!-- 类似于导航的功能 -->
 <p>这里是发送邮件链接：
 <a href="mailto:niepeishen@sina.com?subject=Hello%20again">发送邮件</a>
 </p>
@@ -78,11 +78,12 @@ Here is some Hebrew text
 </p>
 <p>来自网络的图
 alt表示当图片加载失败时，做出的提示
+
 <img alt="error" src="http://www.w3school.com.cn/i/w3school_logo_white.gif" />
 </p>
-
+ <!-- 
 <img border="0" usemap="#planetmap" src="resource/image/1433397982027.jpg" alt="Planets" />
-
+-->
 <map name="planetmap" id="planetmap">
 <area alt="facebook" shape="circle" coords="180,139,34" target="_blank" href="https://www.facebook.com/" />
 
@@ -174,6 +175,96 @@ alt表示当图片加载失败时，做出的提示
 		Row	
 		</td>
 	</tr>
+</table>
+
+<table border="1">
+<tr>
+<th>name</th>
+<th colspan="2">phone</th>
+</tr>
+<tr>
+<td>niepeishen</td>
+<td>232423</td>
+<td>3235235</td>
+</tr>
+</table>
+
+<table border="1">
+<tr>
+<th>name</th>
+<td>niepeishen</td>
+</tr>
+<tr>
+<th rowspan="2">phone</th>
+<td>232423</td>
+<td>3235235</td>
+</tr>
+</table>
+
+<table border="1">
+<tr>
+<td>
+<p>this is a paragraph</p>
+<p>this is other paragraph</p>
+</td>
+<td>
+<table border="1">
+<tr><td>a</td><td>b</td></tr>
+<tr><td>c</td><td>d</td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><ul><li>apple</li><li>google</li><li>facebook</li></ul></td>
+<td>表格中的段落，表格，列表</td>
+</tr>
+</table>
+
+<p>单元格边距</p>
+<table border="1" cellpadding="10">
+<tr>
+<td>First</td><td>Row</td>
+</tr>
+<tr>
+<td>Second</td><td>Row</td>
+</tr>
+</table>
+
+<p>单元格间距</p>
+<table border="1" cellspacing="10" background="resource/image/88A3.tmp.png">
+<tr>
+<!-- 添加背景图片为background="xx.gif" -->
+<td bgcolor="red">First</td><td>Row</td>
+</tr>
+<tr>
+<td>Second</td><td>Row</td>
+</tr>
+</table>
+
+<p>使用frame来控制表格的边框</p>
+<table frame="box">
+<tr><th>Month</th><th>Savings</th></tr>
+<tr><td>January</td><td>$100</td></tr>
+</table>
+<p>使用frame来控制表格的边框</p>
+<table frame="above">
+<tr><th>Month</th><th>Savings</th></tr>
+<tr><td>January</td><td>$100</td></tr>
+</table>
+<p>使用frame来控制表格的边框</p>
+<table frame="below">
+<tr><th>Month</th><th>Savings</th></tr>
+<tr><td>January</td><td>$100</td></tr>
+</table>
+<p>使用frame来控制表格的边框</p>
+<table frame="hsides">
+<tr><th>Month</th><th>Savings</th></tr>
+<tr><td>January</td><td>$100</td></tr>
+</table>
+<p>使用frame来控制表格的边框</p>
+<table frame="vsides">
+<tr><th>Month</th><th>Savings</th></tr>
+<tr><td>January</td><td>$100</td></tr>
 </table>
 
 </body>
